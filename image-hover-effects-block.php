@@ -77,7 +77,7 @@ class ImageHoverEffectsBlock {
 			wp_enqueue_script('iheg-build');
 		}
 		
-		register_block_type('block/image-hover-effects-block',
+		register_block_type('iheg/image-hover-effects-block',
 		array(
 			'attributes'	=>	array(
 				'widget_title' => array(
