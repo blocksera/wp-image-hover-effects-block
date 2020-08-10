@@ -1,5 +1,6 @@
 === Image Hover Effects Block ===
 Contributors: blocksera, crypto4ever
+Tags: image hover effects block
 Donate Link: https://imagehoverblock.blocksera.com
 Tags: image hover effects, hover effects, css hover effects, hover, css hover, gutenberg, block editor, gutenberg block, gutenberg image hover effects
 Requires PHP: 5.2.4
