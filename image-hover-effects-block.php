@@ -31,7 +31,7 @@ class ImageHoverEffectsBlock {
 	public function __construct() {
         register_activation_hook(__FILE__, 		array($this, 'activate'));
         register_deactivation_hook(__FILE__, 	array($this, 'deactivate'));
-		$this->init_hhooks();
+		$this->init_hooks();
 	}
 
 	public function add_custom_script() {
