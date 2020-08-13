@@ -7,6 +7,7 @@
  * Description: 	  Collection of image hover effects for WordPress Block editor Gutenberg.
  * Version:     	  1.3.1
  * Requires at least: 5.0
+ * Requires php: 5.6
  * Tested up to:      5.4.2
  * License: 		  GPL v3
  * Text Domain:		  iheg-lang
