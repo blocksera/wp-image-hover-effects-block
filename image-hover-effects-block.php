@@ -31,19 +31,7 @@ class ImageHoverEffectsBlock {
 	public function __construct() {
         register_activation_hook(__FILE__, 		array($this, 'activate'));
         register_deactivation_hook(__FILE__, 	array($this, 'deactivate'));
-		$this->init_hooks();
-	}
-
-
-	public function init_hooks() {
-		add_action( 'init', 						array($this, 'imagehoverplugin'));
-		add_action( 'enqueue_block_editor_assets', 	array($this, 'add_custom_script'));
-		
-		$iheg_version = get_transient('iheg_version');
-        if (version_compare($iheg_version, IHEG_VERSION, '<')) {
-            delete_transient('iheg_webfonts');
-            set_transient('iheg_version', IHEG_VERSION);
-        }
+		$this->init_hhooks();
 	}
 
 	public function add_custom_script() {
